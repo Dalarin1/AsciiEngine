@@ -1,7 +1,10 @@
 import time
+import os
 
 frame = []
 
+if os.name == 'nt':
+    os.system('')
 
 def clear_frame():
     global frame
